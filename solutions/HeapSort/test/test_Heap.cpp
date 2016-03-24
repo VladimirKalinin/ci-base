@@ -10,9 +10,7 @@ TEST(Heap, can_create_heap) {
 TEST(Heap, can_add_element_to_heap) {
   int a[10] = {2, 6, 4, 8, 4, 0, 10, 33, 5, 7};
   Heap h(a, 10, 20);
-//  printf("size = %i \n len = %i\n", h.size, h.len);
   h.Add(-100);
-//  printf("size = %i \n len = %i", h.size, h.len);
   ASSERT_EQ(h.mas[1], -100);
 }
 

@@ -1,4 +1,4 @@
-﻿Построение начато 25.03.2016 1:16:47.
+﻿Построение начато 25.03.2016 1:28:14.
      1>Проект "C:\GitRepositories\ci-base\solutions\HeapSort\Heap - test\Heap - test.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
          D:\Programs\VisualStudio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\test\test_Heap.cpp
@@ -11,4 +11,4 @@
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:01.47
+Затраченное время: 00:00:01.92
