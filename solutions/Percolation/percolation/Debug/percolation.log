@@ -1,0 +1,16 @@
+﻿Построение начато 01.04.2016 0:27:14.
+     1>Проект "C:\GitRepositories\ci-base\solutions\Perlocation\percolation\percolation.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\Programs\VisualStudio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\gitrepositories\ci-base\solutions\perlocation\percolation\source.cpp(10): warning C4244: =: преобразование "time_t" в "long", возможна потеря данных
+     1>c:\gitrepositories\ci-base\solutions\perlocation\percolation\source.cpp(15): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\programs\visualstudio\vc\include\stdio.h(290): см. объявление "scanf"
+       Link:
+         D:\Programs\VisualStudio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\GitRepositories\ci-base\solutions\Perlocation\Debug\percolation.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\GitRepositories\ci-base\solutions\Perlocation\Debug\percolation.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\GitRepositories\ci-base\solutions\Perlocation\Debug\percolation.lib" /MACHINE:X86 Debug\Source.obj
+         percolation.vcxproj -> C:\GitRepositories\ci-base\solutions\Perlocation\Debug\percolation.exe
+     1>Построение проекта "C:\GitRepositories\ci-base\solutions\Perlocation\percolation\percolation.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.85
