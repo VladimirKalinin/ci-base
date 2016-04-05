@@ -8,8 +8,9 @@ class Heap {
   int *mas;
 
   void Add(int a) {
-    if (len > size - 1)
+    if (len > size - 1) {
       throw "Heap is full";
+    }
     len++;
     mas[len] = a;
     int i = len;
@@ -23,6 +24,9 @@ class Heap {
   }
 
   Heap(int *m, int n, int sz) {
+    if (sz < 0 || n < 0) {
+      throw "Negative lenght or size";
+    }
     mas = new int[n + 1];
     len = 0;
     size = sz;

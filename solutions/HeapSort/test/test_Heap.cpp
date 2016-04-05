@@ -7,6 +7,11 @@ TEST(Heap, can_create_heap) {
   ASSERT_NO_THROW(Heap h(a, 10, 20));
 }
 
+TEST(Heap, cant_create_heap_with_negative_size) {
+  int a[10] = {2, 6, 4, 8, 4, 0, 10, 33, 5, 7};
+  ASSERT_ANY_THROW(Heap h(a, -10, 20));
+}
+
 TEST(Heap, can_add_element_to_heap) {
   int a[10] = {2, 6, 4, 8, 4, 0, 10, 33, 5, 7};
   Heap h(a, 10, 20);
