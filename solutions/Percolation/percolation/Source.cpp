@@ -13,13 +13,13 @@ int main() {
 
   printf("h = ");
   scanf("%i", &h);
-  double sum = 50;
+  double sum = 0;
   separ a(h * (h + 2));
 
   for (j = 0, n = 1; ; j++, n++) {  
     
     for (int i = 0; i < h; i++)
-      a.mas[i] = 0;
+      a.mas[i] = 1;
     for (int i = h * (h + 1); i < h * (h + 2); i++)
       a.mas[i] = h * (h + 2) - 1;
     for (int i = h; i < h * (h + 1); i++)
@@ -33,10 +33,10 @@ int main() {
     }*/
 
     while (a.getindex(0) != a.getindex(2*h + h * h - 1)) {
-      tmp = h + rand() % (h * h);
+      tmp = h + (rand() % h) + (rand() % h)*h;
   //    printf("tmp = %i\n", tmp);
-      while (a.mas[tmp] > 0) {
-        tmp = h + rand() % (h * h);
+      while (a.mas[tmp] >= 0) {
+        tmp = h + (rand() % h) + (rand() % h)*h;
   //      printf("tmp2 = %i\n", tmp);
       }
       a.mas[tmp] = -a.mas[tmp];
